@@ -11,9 +11,9 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Eleanor J. F. Martin"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://eleanorjmartin.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Eleanor Martin"
+description              : &description "PhD Candidate in Classics and History, Yale University"
+url                      : https://eleanorjmartin.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "eleanorjmartin/eleanorjmartin.github.io"
 
@@ -32,7 +32,7 @@ author:
   email            : "eleanor.martin@yale.edu" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://classics.yale.edu/eleanor-martin-19"
   googlescholar    : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0003-8471-6742"
