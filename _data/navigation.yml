@@ -15,4 +15,4 @@ main:
     url: /teaching/    
     
   - title: "CV"
-    url: <a href="CV 2025 - Eleanor Martin.pdf">Download File</a>
+    <a href="CV 2025 - Eleanor Martin.pdf">Download File</a>
