@@ -27,7 +27,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Classics and History"
   location         : "New Haven, CT"
-  employer         : "<a href='https://classics.yale.edu/eleanor-martin-19'>Yale University</a>"
+  employer_name    : "Yale University"
+  employer_url     : "https://classics.yale.edu/eleanor-martin-19"
   uri              : # URL
   email            : "eleanor.martin@yale.edu" 
 
