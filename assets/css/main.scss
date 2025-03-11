@@ -34,7 +34,12 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
+.author__urls {
+  display: flex;
+  flex-direction: column;
+}
+
 .author__desktop {
-    display: flex;
-    align-items: center !important;
+  display: flex;
+  align-items: center;
 }
