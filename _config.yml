@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Eleanor J. F. Martin"
+title                    : "Eleanor Martin"
 title_separator          : "-"
 name                     : &name "Eleanor Martin"
 description              : &description "PhD Candidate in Classics and History, Yale University"
