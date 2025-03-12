@@ -82,9 +82,9 @@
    ========================================================================== */
 
 .author__avatar img {
-  max-width: 300px; // Adjust to your desired width
-  width: 300px; // Adjust to your desired width
-  height: 300px; // Adjust to your desired height
+  max-width: 250px; // Adjust to your desired width
+  width: 250px; // Adjust to your desired width
+  height: 250px; // Adjust to your desired height
   border-radius: 10%; // Change to 0 for square, 50% for circle, or any other value for different shapes
 
   @include breakpoint($large) {
