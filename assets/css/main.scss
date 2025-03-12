@@ -46,7 +46,8 @@
 
 .author__desktop .employer,
 .author__desktop .employer_url {
-  display: flex;
+  display: inline-flex;
+   align-items: center;
    flex-direction: row;
   margin-left: 5px; /* Adjust the margin as needed */
 }
