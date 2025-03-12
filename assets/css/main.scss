@@ -44,8 +44,10 @@
   align-items: center;
 }
 
-.author__desktop .employer {
+.author__desktop .employer,
+.author__desktop .employer_url {
   display: inline;
+   flex-direction: row;
   margin-left: 5px; /* Adjust the margin as needed */
 }
 
