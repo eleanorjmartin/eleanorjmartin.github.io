@@ -3,3 +3,33 @@
   font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
 }
+.header {
+  width: 100%;
+  background: #e6e6e6;
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  box-sizing: border-box;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__nav a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: inherit;
+}
+.header__nav a:last-child {
+  margin-right: 0;
+}
