@@ -12,7 +12,13 @@
   letter-spacing: 2px;
   font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 }
-
+.sidebar-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+}
 /* Navigation footer */
 .nav-footer {
   width: 100%;
