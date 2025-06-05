@@ -5,6 +5,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eleanorjmartin.github.io" # your site URL
 
+author:
+  name: "Eleanor J. F. Martin"
+  avatar: "/media/headshot.JPG"
+
 # Social
 twitter_username: ""
 github_username: "eleanorjmartin"
