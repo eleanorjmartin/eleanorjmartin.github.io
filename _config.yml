@@ -1,0 +1,59 @@
+title: "Eleanor Martin"
+email: "your.email@yale.edu"
+description: >- # this means to ignore newlines until "baseurl:"
+  Your academic homepage description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://eleanorjmartin.github.io" # your site URL
+
+# Social
+twitter_username: ""
+github_username: "eleanorjmartin"
+orcid_id: "0009-0003-8471-6742"
+bluesky_url: "https://bsky.app/profile/eleanormartin.bsky.social"
+university_url: "https://classics.yale.edu/eleanor-martin-19"
+
+# Build settings
+markdown: kramdown
+theme: academicpages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-scholar
+
+# Exclude files from being processed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+collections:
+  teaching:
+    output: true
+  publications:
+    output: true
+  posts:
+    output: true
+
+# Navigation Bar
+nav_pages:
+  - name: "Teaching"
+    url: "/teaching/"
+  - name: "Research"
+    url: "/research/"
+  - name: "CV"
+    url: "/assets/CV.pdf"
+    external: true
+
+# Sidebar Links
+sidebar:
+  - text: "Yale University"
+    url: "https://classics.yale.edu/eleanor-martin-19"
+  - text: "Email"
+    url: "mailto:your.email@yale.edu"
+  - text: "ORCID"
+    url: "https://orcid.org/0009-0003-8471-6742"
+  - text: "Bluesky"
+    url: "https://bsky.app/profile/eleanormartin.bsky.social"
