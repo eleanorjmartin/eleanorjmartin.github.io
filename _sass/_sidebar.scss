@@ -21,8 +21,8 @@
 /* Place .author__avatar img at the end for priority */
 .author__avatar img {
   display: block;
-  max-width: 60%;       /* Image will not exceed 60% of sidebar width */
-  max-height: 140px;    /* Limits vertical size */
+  max-width: 60% !important;
+  max-height: 140px !important;
   width: auto;
   height: auto;
   border-radius: 50%;
