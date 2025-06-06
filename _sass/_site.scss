@@ -1,3 +1,10 @@
+/* Set Quicksand as the default font for all body text */
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+}
+
 /* Big site title for header */
 .main-header {
   width: 100%;
@@ -10,13 +17,10 @@
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 2px;
-  font-family: 'Lexend Giga', 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lexend Giga', Arial, sans-serif;
 }
-body {
-  font-family: 'Quicksand', Arial, sans-serif;
-  font-size: 1rem;
-  color: #222;
-}
+
+/* Sidebar image styles */
 .sidebar-image {
   display: block;
   max-width: 100%;
@@ -24,6 +28,19 @@ body {
   border-radius: 8px;
   margin-bottom: 1.5em;
 }
+
+/* Sidebar nav links */
+.sidebar nav a {
+  color: #222;
+  text-decoration: none;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 500;
+}
+.sidebar nav a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
 /* Navigation footer */
 .nav-footer {
   width: 100%;
@@ -39,9 +56,11 @@ body {
   color: #222;
   font-size: 1.2rem;
   font-weight: 500;
+  font-family: 'Quicksand', Arial, sans-serif;
 }
 .nav-footer nav a:hover {
   text-decoration: underline;
+  color: #555;
 }
 
 /* Copyright footer */
