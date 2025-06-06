@@ -5,13 +5,13 @@
 
 .author__avatar img {
   display: block;
-  max-width: 80%;       // Image will not exceed 80% of sidebar width
-  max-height: 220px;    // Limits vertical size, adjust as needed
+  max-width: 60%;       /* Image will not exceed 60% of sidebar width */
+  max-height: 140px;    /* Limits vertical size */
   width: auto;
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1em auto; // Center and add space below
+  margin: 0 auto 1em auto; /* Center and add space below */
 }
 
 .author__content {
