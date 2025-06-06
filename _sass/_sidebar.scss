@@ -14,3 +14,14 @@
 .author__content {
   text-align: center;
 }
+
+.sidebar nav a {
+  color: #222;           /* black or your chosen color */
+  text-decoration: none;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.sidebar nav a:hover {
+  color: #555;           /* slightly lighter on hover */
+  text-decoration: underline;
+}
