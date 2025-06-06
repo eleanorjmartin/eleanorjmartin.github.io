@@ -20,18 +20,6 @@ body {
   font-family: 'Lexend Giga', Arial, sans-serif;
 }
 
-.author__avatar img {
-  display: block;
-  max-width: 60%;      /* Adjust as needed for size */
-  max-height: 140px;   /* Adjust as needed for size */
-  width: auto;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 1.5em auto; /* Center and add space below */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* optional subtle shadow */
-}
-
 /* Sidebar nav links */
 .sidebar nav a {
   color: #222;
