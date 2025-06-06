@@ -20,15 +20,15 @@ body {
   font-family: 'Lexend Giga', Arial, sans-serif;
 }
 
-/* Sidebar image styles */
-.sidebar-image {
+.author__avatar img {
   display: block;
-  max-width: 80%;      /* Image will not exceed 80% of sidebar width */
-  max-height: 220px;   /* Limits vertical size */
-  height: auto;
+  max-width: 60%;      /* Adjust as needed for size */
+  max-height: 140px;   /* Adjust as needed for size */
   width: auto;
-  border-radius: 8px;
-  margin: 0 auto 1.5em auto; /* center and add space below */
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.5em auto; /* Center and add space below */
   box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* optional subtle shadow */
 }
 
