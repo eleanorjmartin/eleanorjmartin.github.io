@@ -3,17 +3,6 @@
   padding: 2em 1.5em;
 }
 
-.author__avatar img {
-  display: block;
-  max-width: 60%;       /* Image will not exceed 60% of sidebar width */
-  max-height: 140px;    /* Limits vertical size */
-  width: auto;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 1em auto; /* Center and add space below */
-}
-
 .author__content {
   text-align: center;
 }
@@ -27,4 +16,16 @@
 .sidebar nav a:hover {
   color: #555;           /* slightly lighter on hover */
   text-decoration: underline;
+}
+
+/* Place .author__avatar img at the end for priority */
+.author__avatar img {
+  display: block;
+  max-width: 60%;       /* Image will not exceed 60% of sidebar width */
+  max-height: 140px;    /* Limits vertical size */
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1em auto; /* Center and add space below */
 }
