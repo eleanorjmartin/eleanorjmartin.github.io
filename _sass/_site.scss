@@ -1,3 +1,10 @@
+/* Set Quicksand as the default font for all body text */
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1rem;
+  color: #222;
+}
+
 /* Big site title for header */
 .main-header {
   width: 100%;
@@ -7,23 +14,36 @@
 }
 .main-header__title {
   margin: 0;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
-  letter-spacing: 2px;
-  font-family: 'Lexend Giga', 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: 4px;
+  font-family: 'Lexend Giga', Arial, sans-serif;
 }
-body {
-  font-family: 'Quicksand', Arial, sans-serif;
-  font-size: 1rem;
-  color: #222;
-}
+
+/* Sidebar image styles */
 .sidebar-image {
   display: block;
-  max-width: 100%;
+  max-width: 80%;      /* Image will not exceed 80% of sidebar width */
+  max-height: 220px;   /* Limits vertical size */
   height: auto;
+  width: auto;
   border-radius: 8px;
-  margin-bottom: 1.5em;
+  margin: 0 auto 1.5em auto; /* center and add space below */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* optional subtle shadow */
 }
+
+/* Sidebar nav links */
+.sidebar nav a {
+  color: #222;
+  text-decoration: none;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: 500;
+}
+.sidebar nav a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
 /* Navigation footer */
 .nav-footer {
   width: 100%;
@@ -37,11 +57,13 @@ body {
   margin: 0 1.5em;
   text-decoration: none;
   color: #222;
-  font-size: 1.2rem;
+  font-size: 3rem;
   font-weight: 500;
+  font-family: 'Quicksand', Arial, sans-serif;
 }
 .nav-footer nav a:hover {
   text-decoration: underline;
+  color: #555;
 }
 
 /* Copyright footer */
