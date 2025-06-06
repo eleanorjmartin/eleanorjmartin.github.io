@@ -4,11 +4,14 @@
 }
 
 .author__avatar img {
-  width: 180px;
-  height: 180px;
+  display: block;
+  max-width: 80%;       // Image will not exceed 80% of sidebar width
+  max-height: 220px;    // Limits vertical size, adjust as needed
+  width: auto;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1em;
+  margin: 0 auto 1em auto; // Center and add space below
 }
 
 .author__content {
