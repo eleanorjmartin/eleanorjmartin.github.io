@@ -23,10 +23,13 @@ body {
 /* Sidebar image styles */
 .sidebar-image {
   display: block;
-  max-width: 100%;
+  max-width: 80%;      /* Image will not exceed 80% of sidebar width */
+  max-height: 220px;   /* Limits vertical size */
   height: auto;
+  width: auto;
   border-radius: 8px;
-  margin-bottom: 1.5em;
+  margin: 0 auto 1.5em auto; /* center and add space below */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* optional subtle shadow */
 }
 
 /* Sidebar nav links */
