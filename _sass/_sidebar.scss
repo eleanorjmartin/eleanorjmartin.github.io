@@ -20,13 +20,13 @@
 }
 
 /* Place .author__avatar img at the end for priority */
-/* Smaller author avatar */
-.author__avatar img{
+/* Force the avatar container to be small */
+.author__avatar,
+.author__avatar a,
+.author__avatar .avatar,
+.author__avatar img {
   width: 48px !important;
   height: 48px !important;
   max-width: 48px !important;
   max-height: 48px !important;
-  border-radius: 50%;
-  object-fit: cover;
-  margin: 0 auto 0.75rem auto;
 }
