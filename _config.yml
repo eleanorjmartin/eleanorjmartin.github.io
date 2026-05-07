@@ -3,7 +3,7 @@ email: "eleanor.martin@yale.edu"
 description: >- # this means to ignore newlines until "baseurl:"
   Your academic homepage description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eleanorjmartin.github.io" # your site URL
+url: "https://eleanorjanemartin.com" # your site URL
 
 author:
   name: "Eleanor J. F. Martin"
