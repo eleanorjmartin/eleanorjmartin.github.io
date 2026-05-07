@@ -20,13 +20,13 @@
 }
 
 /* Place .author__avatar img at the end for priority */
-.author__avatar img {
-  display: block;
-  max-width: 80px !important;
-  max-height: 80px !important;
-  width: auto;
-  height: auto;
+/* Smaller author avatar */
+.author__avatar img{
+  width: 48px !important;
+  height: 48px !important;
+  max-width: 48px !important;
+  max-height: 48px !important;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1em auto; /* Center and add space below */
+  margin: 0 auto 0.75rem auto;
 }
